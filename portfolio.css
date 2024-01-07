@@ -61,7 +61,7 @@ nav a {
 
 .header {
   background-color: #fff8f3;
-  background-image: url('images/header_bg.png'), url('images/developer.png');
+  background-image: url("images/header_bg.png"), url("images/developer.png");
   background-repeat: no-repeat;
   background-position: bottom right, top left;
 }
@@ -86,13 +86,13 @@ nav a {
 }
 
 .banner-greeting {
-  font-size: 45px;
+  font-size: 40px;
   color: #474747;
   margin-bottom: 0;
 }
 
 .banner-title {
-  font-size: 85px;
+  font-size: 75px;
   font-weight: 700;
   margin-top: 5px;
   margin-bottom: 20px;
@@ -215,20 +215,22 @@ footer {
 }
 
 .footer-column {
-    width: 50%;
+  width: 50%;
 }
 
-.contact input[type="text"], .contact input[type="email"], textarea {
-    display: block;
-    margin-bottom: 25px;
-    padding: 18px 35px;
-    color: #757575;
-    border-radius: 5px;
-    background: #fff;
-    border: 0;
-    width: 100%;
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+  width: 100%;
 }
 
 .social-icon a {
-    margin-right: 25px;
+  margin-right: 25px;
 }
